@@ -11,23 +11,14 @@
 @implementation UILabel (Extension)
 
 - (void)setAnimationFromLocX:(NSInteger)fromX toLocX:(NSInteger)toX duration:(NSTimeInterval)duration{
-    
     CGRect frame = self.frame;
-    
     frame.origin.x = fromX;
-    
     self.frame = frame;
-    
     [UIView beginAnimations:@"ANIMATION"context:NULL];
-    
     [UIView setAnimationDuration:duration];
-    
     [UIView setAnimationCurve:UIViewAnimationCurveLinear];
-    
     [UIView setAnimationRepeatCount:MAXFLOAT];
-    
     frame.origin.x = toX;
-    
     self.frame = frame;
     [UIView commitAnimations];
 }
