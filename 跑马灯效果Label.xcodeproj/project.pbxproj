@@ -14,6 +14,7 @@
 		3A904E001B5DFD65009A7D8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A904DFF1B5DFD65009A7D8E /* Images.xcassets */; };
 		3A904E031B5DFD65009A7D8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A904E011B5DFD65009A7D8E /* LaunchScreen.xib */; };
 		3A904E0F1B5DFD65009A7D8E /* _____LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904E0E1B5DFD65009A7D8E /* _____LabelTests.m */; };
+		3A904E1A1B5E1C79009A7D8E /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904E191B5E1C79009A7D8E /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3A904E081B5DFD65009A7D8E /* 跑马灯效果LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "跑马灯效果LabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A904E0D1B5DFD65009A7D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A904E0E1B5DFD65009A7D8E /* _____LabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____LabelTests.m"; sourceTree = "<group>"; };
+		3A904E181B5E1C79009A7D8E /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		3A904E191B5E1C79009A7D8E /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				3A904DF71B5DFD65009A7D8E /* AppDelegate.m */,
 				3A904DF91B5DFD65009A7D8E /* ViewController.h */,
 				3A904DFA1B5DFD65009A7D8E /* ViewController.m */,
+				3A904E181B5E1C79009A7D8E /* UILabel+Extension.h */,
+				3A904E191B5E1C79009A7D8E /* UILabel+Extension.m */,
 				3A904DFC1B5DFD65009A7D8E /* Main.storyboard */,
 				3A904DFF1B5DFD65009A7D8E /* Images.xcassets */,
 				3A904E011B5DFD65009A7D8E /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A904E1A1B5E1C79009A7D8E /* UILabel+Extension.m in Sources */,
 				3A904DFB1B5DFD65009A7D8E /* ViewController.m in Sources */,
 				3A904DF81B5DFD65009A7D8E /* AppDelegate.m in Sources */,
 				3A904DF51B5DFD65009A7D8E /* main.m in Sources */,
